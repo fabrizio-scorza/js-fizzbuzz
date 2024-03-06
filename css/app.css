@@ -1,0 +1,30 @@
+/***RESET*****************************************/
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+ul,ol,menu{
+    list-style: none;
+}
+
+/***LAYOUT*****************************************/
+.app{
+    height: 100vh;
+    background-color:#0D1117;
+}
+.container{
+    max-width: 85%;
+    margin :0 auto;
+}
+
+/***APP********************************************/
+.container h1 {
+    text-align: center;
+    font-size: 72px;
+    color: #00DE6B ;
+    padding: 30px 0;
+}
